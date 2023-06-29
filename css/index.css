@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,600&display=swap');
+
+* {
+	color: #33539E;
+	font-family: Chivo;
+	font-weight: 300; 
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 50px;
+	margin: 20px;
+	font-family: Chivo;
+	font-weight: 600; 
+	font-style: italic;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid #33539E;
+	padding:30px 100px 50px 100px;
+	background-color: #E3DCFF;
+	border-radius: 10px;
+
+  }
+
+  .header {
+	font-family: Chivo;
+	font-weight: 600; 
+	font-size: x-large;
+  }
+  
+  .sign-in{
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+  }
+
+  #footer p {
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-style: italic;
+	margin-top: 20px;
+  }
+  
+  .login-button {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 6px 12px;
+	width: 100%;
+	background-color: #33539E;
+	color: white;
+	border-radius: 4px;
+	border-style: none;
+  }
+
+  .login-button:hover{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 6px 12px;
+	width: 100%;
+	/* background-color: #85339e; */
+	background-color: #F3DAE9;
+	color: #A5678E;
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #A5678E;
+  }
+
+
+  .form-control {
+	margin-top: 10px;
+	padding: 10px 16px;
+	/* width: 100%; */
+	border-radius: 4px;
+	border-style: none;
+  }
+
+  .create{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  }
+
+  .btn btn-default btn-block {
+	justify-content : center;
+  }
+
+  .bottom {
+	margin-top: -10px;
+	font-style: italic;
+  }
+  
+  
